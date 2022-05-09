@@ -1,0 +1,20 @@
+{
+  "name": "LearningExpressJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.7",
+    "nodemon": "^2.0.16"
+  }
+}
