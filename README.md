@@ -191,7 +191,7 @@ app.get('/', logger, anothermiddleware, (req, res) => {
 ```
 
 ### serving static files 
-> Static files are just files that their content doesnt every change. eg. a static html file, etc.
+> Static files are just files that their content doesn't ever change. eg. a static html file, etc.
 
 ```js
 app.use(express.static('public')); //serves all the files found in the 'public' folder
